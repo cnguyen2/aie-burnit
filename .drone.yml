@@ -1,12 +1,12 @@
 image: golang:1.5
 git:
-  path: github.com/danielkrainas/aie-burnit
+  path: github.com/cnguyen2/aie-burnit
 script:
   - echo "build commands"
   - echo "no build command"
   - echo "no test command"
 clone:
-  path: github.com/danielkrainas/aie-burnit
+  path: github.com/cnguyen2/aie-burnit
 build:
   image: golang:1.5
   commands:
